@@ -1,4 +1,5 @@
 import mypic from './assets/image.png'
+import propTypes from 'prop-types'
 
 function Studata(data){
     return(
@@ -9,6 +10,18 @@ function Studata(data){
             <p className='card_text'>age: {data.age>30? "old":"young"}</p>
         </div>
     );
+}
+
+Studata.propTypes={
+    name: propTypes.string,
+    profession: propTypes.string,
+    age: propTypes.bool,
+}
+
+Studata.defaultProps={
+    name:"ram",
+    profession: "default card",
+    age: 25,
 }
 
 export default Studata

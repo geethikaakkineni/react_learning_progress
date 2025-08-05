@@ -11,10 +11,11 @@ function App() {
     <>
       <Studata name="abc" profession="student" age={21}></Studata>
       <Studata name="def" profession="teacher" age={36}></Studata>
-      <Studata name="ghi" profession="incharge" age={19}></Studata>
-      
-      
-    </>
+      <Studata name="ghi" profession="incharge" age={90}></Studata>
+      <Studata/>
+      <Studata/>
+      <Studata/>
+    </> 
   );
 
 
