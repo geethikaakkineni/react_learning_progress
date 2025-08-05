@@ -1,0 +1,10 @@
+.button{
+  background-color: rgba(219, 116, 137, 0.926) ;
+  border:solid 2px black;
+  border-radius: 5px;
+  color: aliceblue;
+  padding: 6px;
+  margin-left: 130px;
+  display: grid;
+  cursor: pointer;
+}

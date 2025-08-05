@@ -1,5 +1,5 @@
 
-function food(){
+function Food(){
     const fruit1="banana";
     const fruit2="apple";
     const fruit3="kiwi";
