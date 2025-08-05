@@ -1,11 +1,14 @@
-import mypic from './assets/passport_size.jpg'
+import mypic from './assets/image.png'
 
-function Card(){
+function Card(data){
     return (
-        <div className="card">
-            <img className='card_img' src={mypic} alt="my picture" ></img>
-            <h2 className='card_title'>Geethika Akkineni</h2>
-            <p className='card_text'>I am a student pursuing BTech in mrec</p>
+        <div>
+            <div className="card1">
+                <img className='card_img' src={mypic} alt="my picture" ></img>
+                <h2 className='card_title'>Geethika Akkineni</h2>
+                <p className='card_text'>I am a student pursuing BTech in mrec</p>
+            </div> 
+
         </div>
     );
 }

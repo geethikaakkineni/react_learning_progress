@@ -1,4 +1,4 @@
-.card{
+.card1 , .card2 {
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(175, 170, 170) ;
@@ -8,17 +8,17 @@
   max-width: 250px;
   display: inline-block;
 }
-.card .card_img{
+ .card_img{
   max-width: 150px;
   border-radius: 75px;
   margin: 10px;
 }
-.card .card_title{
+.card_title{
   font-family: monospace,cursive;
   margin: 0px;
   color: hsl(0, 0%, 30%);
 }
-.card .card_text{
+.card_text{
   font-family: monospace,cursive;
   margin: 2px;
   color: hsl(0, 2%, 50%);
