@@ -5,16 +5,12 @@ import Card from './Card.jsx'
 import Button from './button_component/Button.jsx'
 import Button2 from './Button2.jsx'
 import Studata from './Studata.jsx'
+import Loginpg from './loginpg.jsx'
 
 function App() {
   return(
     <>
-      <Studata name="abc" profession="student" age={21}></Studata>
-      <Studata name="def" profession="teacher" age={36}></Studata>
-      <Studata name="ghi" profession="incharge" age={90}></Studata>
-      <Studata/>
-      <Studata/>
-      <Studata/>
+        <Loginpg isloggedin={false} username="Lucky"></Loginpg>;
     </> 
   );
 

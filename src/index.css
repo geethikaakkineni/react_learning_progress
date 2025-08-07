@@ -34,3 +34,23 @@
   display: grid;
   cursor: pointer;
 } */
+
+h2{
+  font-family: fantasy,monospace;
+  /* border: 2px solid black; */
+  padding: 6px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+#welcomepg{
+  width: 300px;
+  height:30px;
+  background-color: rgb(172, 238, 74);
+}
+
+#askloginpg{
+  width: 250px;
+  height:30px;
+  background-color: rgb(247, 50, 50);
+}
