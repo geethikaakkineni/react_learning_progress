@@ -6,11 +6,13 @@ import Button from './button_component/Button.jsx'
 import Button2 from './Button2.jsx'
 import Studata from './Studata.jsx'
 import Loginpg from './loginpg.jsx'
+import List from './List.jsx'
+import Listpt2 from './Listpt2.jsx'
 
 function App() {
   return(
     <>
-        <Loginpg isloggedin={false} username="Lucky"></Loginpg>;
+      <Listpt2/>
     </> 
   );
 
