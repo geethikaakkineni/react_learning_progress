@@ -32,8 +32,8 @@
   padding: 6px;
   margin-left: 130px;
   display: grid;
-  cursor: pointer;
-} */
+  cursor: pointer; 
+}*/
 
 h2{
   font-family: fantasy,monospace;
@@ -53,4 +53,19 @@ h2{
   width: 250px;
   height:30px;
   background-color: rgb(247, 50, 50);
+}
+
+button{
+  background-color: rgba(114, 185, 223, 0.897) ;
+  border:solid 2px white;
+  border-radius: 5px;
+  color: aliceblue;
+  padding: 6px;
+  cursor: pointer;
+}
+
+#counter{
+  font-size: 70px ;
+  margin-left: 80px;
+  font-weight: bold;
 }

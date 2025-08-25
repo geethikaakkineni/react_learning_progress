@@ -8,11 +8,15 @@ import Studata from './Studata.jsx'
 import Loginpg from './loginpg.jsx'
 import List from './List.jsx'
 import Listpt2 from './Listpt2.jsx'
+import ButtonEvent from './ButtonEvent.jsx'
+import Hooks from './Hooks.jsx'
+import EventHandlers from './EventHandlers.jsx'
 
 function App() {
   return(
     <>
-      <Listpt2/>
+      <Hooks/>
+      <EventHandlers/>
     </> 
   );
 
