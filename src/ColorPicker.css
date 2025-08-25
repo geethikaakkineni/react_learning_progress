@@ -1,0 +1,33 @@
+*{
+    font-family: "Crazy Font Name", fantasy;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display{
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgba(216, 196, 196, 0.597);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+label{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+input{
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 0px;
+}

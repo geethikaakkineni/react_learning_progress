@@ -11,12 +11,13 @@ import Listpt2 from './Listpt2.jsx'
 import ButtonEvent from './ButtonEvent.jsx'
 import Hooks from './Hooks.jsx'
 import EventHandlers from './EventHandlers.jsx'
+import ColorPicker from './ColorPicker.jsx'
+
 
 function App() {
   return(
     <>
-      <Hooks/>
-      <EventHandlers/>
+      <ColorPicker/>
     </> 
   );
 
