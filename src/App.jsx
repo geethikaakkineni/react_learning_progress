@@ -12,12 +12,12 @@ import ButtonEvent from './ButtonEvent.jsx'
 import Hooks from './Hooks.jsx'
 import EventHandlers from './EventHandlers.jsx'
 import ColorPicker from './ColorPicker.jsx'
-
+import UpdaterFunc from './UpdaterFunc.jsx'
 
 function App() {
   return(
     <>
-      <ColorPicker/>
+      <UpdaterFunc/>
     </> 
   );
 

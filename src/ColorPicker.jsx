@@ -3,7 +3,7 @@ import './ColorPicker.css'
 
 function ColorPicker(){
 
-    const [color,setColor]=useState("#000000");
+    const [color,setColor]=useState("#ee6363");
 
     const colorHandler=(e)=>{
         setColor(e.target.value);
