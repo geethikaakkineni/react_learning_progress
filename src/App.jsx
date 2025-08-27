@@ -13,11 +13,12 @@ import Hooks from './Hooks.jsx'
 import EventHandlers from './EventHandlers.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import UpdaterFunc from './UpdaterFunc.jsx'
+import UpdaterAndObjects from'./UpdaterAndObjects.jsx'
 
 function App() {
   return(
     <>
-      <UpdaterFunc/>
+      <UpdaterAndObjects/>
     </> 
   );
 
