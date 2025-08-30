@@ -14,11 +14,13 @@ import EventHandlers from './EventHandlers.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import UpdaterFunc from './UpdaterFunc.jsx'
 import UpdaterAndObjects from'./UpdaterAndObjects.jsx'
+import UpdateArraysInState from './UpdateArraysInState.jsx'
+import UpdateArrayOfObjects from './UpdateArrayOfObjects.jsx'
 
 function App() {
   return(
     <>
-      <UpdaterAndObjects/>
+      <UpdateArrayOfObjects/>
     </> 
   );
 
