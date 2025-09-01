@@ -8,7 +8,7 @@ function UpdateArrayOfObjects(){
     const [position,setPosition]=useState("");
 
     function handleAdd(){
-        const newEmp= {employeeID:id , 
+        const newEmp= {empID:id , 
                        EmployeeJoining: joinYear , 
                        EmployeePosition: position};
 
@@ -19,7 +19,7 @@ function UpdateArrayOfObjects(){
         setPosition("");
     }
     function handleRemove(index){
-        setDetails(c=>c.filter((_dirname,i)=>i!==index));
+        setDetails(c=>c.filter((_,i)=>i!==index));
     }
     function handleId(event){
         setID(event.target.value);
@@ -37,7 +37,7 @@ function UpdateArrayOfObjects(){
             <ul>
                 {details.map((details,index) =>
                 <li key={index} onClick={()=>handleRemove(index)}>
-                    {details.employeeID} {details.EmployeeJoining} {details.EmployeePosition}
+                    {details.empID} {details.EmployeeJoining} {details.EmployeePosition}
                     </li>)}
             </ul>
                 <input type="text" placeholder='enter employee Id' value={id} onChange={handleId}></input><br/><br/>

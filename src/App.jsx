@@ -16,11 +16,12 @@ import UpdaterFunc from './UpdaterFunc.jsx'
 import UpdaterAndObjects from'./UpdaterAndObjects.jsx'
 import UpdateArraysInState from './UpdateArraysInState.jsx'
 import UpdateArrayOfObjects from './UpdateArrayOfObjects.jsx'
+import EffectHook from './EffectHook.jsx'
 
 function App() {
   return(
     <>
-      <UpdateArrayOfObjects/>
+      <EffectHook/>
     </> 
   );
 
