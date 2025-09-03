@@ -17,11 +17,12 @@ import UpdaterAndObjects from'./UpdaterAndObjects.jsx'
 import UpdateArraysInState from './UpdateArraysInState.jsx'
 import UpdateArrayOfObjects from './UpdateArrayOfObjects.jsx'
 import EffectHook from './EffectHook.jsx'
+import ComponentA from './ContextHook/ComponentA.jsx'
 
 function App() {
   return(
     <>
-      <EffectHook/>
+      <ComponentA/>
     </> 
   );
 
